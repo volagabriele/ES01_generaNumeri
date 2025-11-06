@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 app.get('/random-number', (req, res) => {
     
-    const randomNumber = Math.floor(Math.random() * 100) + 1;
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
     res.json({ number: randomNumber });
 });
 
